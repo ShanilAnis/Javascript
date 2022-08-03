@@ -1,4 +1,4 @@
-console.log("Hello World");
-console.log(typeof "Shanil");
-console.log(typeof 42);
-console.log(typeof true);
+// const myVariable = 'Mathematics';
+
+// console.log(myVariable.split('a'));
+
