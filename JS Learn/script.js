@@ -1,4 +1,8 @@
-// const myVariable = 'Mathematics';
+// document.getElementById("count").innerText = 5;
 
-// console.log(myVariable.split('a'));
+let myAge = 2022 - 1997;
+let humanDogRatio = 7
+
+let myDogRatio = myAge * humanDogRatio
+console.log(myDogRatio)
 
