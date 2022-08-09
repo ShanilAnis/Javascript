@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    font-size: 1rem;
+    background-image: url(./Image/Rail.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(105, 105, 105);
+    color: #fff;
+
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 250%;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+button#increment-btn{
+    padding: 1rem;
+    border-radius: 10px;
+    color:#fff;
+    background-color: red;
+    width: 10rem;
+}
+button#save-btn{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    color:#fff;
+    background-color: green;
+    width: 10rem;
+}
+
