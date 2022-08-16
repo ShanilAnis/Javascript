@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+header{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    border-bottom:4px solid black ;
+}
+
+main{
+margin: 1rem auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+footer{
+    text-align: center;
+}
