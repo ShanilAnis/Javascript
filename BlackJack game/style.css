@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  background-image: url(./img/poker-table.jpg);
+  background-size: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container div {
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 5rem;
+}
+
+p {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+#start {
+  margin-bottom: 1rem;
+  background-color: goldenrod;
+  width: 350px;
+  padding: 1rem ;
+  color: #016f32;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+}
+#new-card {
+  width: 350px;
+  background-color: goldenrod;
+  padding: 1rem ;
+  color: #016f32;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5%;
+}
