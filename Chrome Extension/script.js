@@ -1,15 +1,29 @@
-const inputBtn = document.getElementById("input-btn")
-let myLeads = ['www.google.com','www.epiclead.com','www.greatlead.com']
-const inputEl = document.getElementById("input-el")
-const ulEl = document.getElementById("ul-el")
+const inputBtn = document.getElementById("input-btn");
+let myLeads = [];
+const inputEl = document.getElementById("input-el");
+const ulEl = document.getElementById("ul-el");
 
 
-inputBtn.addEventListener('click', function(){
-    myLeads.push(inputEl.value) 
-    console.log(myLeads)
-   
+
+inputBtn.addEventListener("click", function () {
+  myLeads.push(inputEl.value);
+  myLeads.clear
+  console.log(myLeads)
+  rederLeads()
+  
 })
 
-for(let i = 0; i < myLeads.length; i++){
-    console.log(myLeads[i])
+  function rederLeads(){
+    let listItems = ""
+  for (let i = 0; i < myLeads.length; i++) {
+    listItems += `<li>
+        <a target = '_blank' href = "${myLeads[i]}">  ${myLeads[i]} </a>
+        </li>`;
+    ulEl.innerHTML = listItems
+    // const li = document.createElement("li")
+    // li.textContent = myLeads[i]
+    // ulEl.append(li)
+    inputEl.value = ''
+  };
+
 }
